@@ -1,0 +1,20 @@
+# Ngrok Setup for Heart Disease Project Streamlit App
+
+1. Download and install ngrok from https://ngrok.com/download
+
+2. Connect your account:
+   ngrok authtoken YOUR_NGROK_AUTH_TOKEN
+
+3. Start your Streamlit app locally:
+   streamlit run ui/app.py
+
+4. In another terminal, expose port 8501 (default Streamlit port):
+   ngrok http 8501
+
+5. Copy the forwarding URL from ngrok (something like https://abcdef.ngrok.io)
+
+6. Share this URL to let others access your app remotely.
+
+# Notes:
+- Replace YOUR_NGROK_AUTH_TOKEN with your actual token from ngrok dashboard.
+- Make sure your firewall allows traffic on port 8501.

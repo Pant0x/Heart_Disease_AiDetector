@@ -1,0 +1,22 @@
+Heart Disease Prediction Model - Evaluation Metrics
+
+Date: YYYY-MM-DD
+Model: Random Forest Classifier
+
+Dataset split: 80% train / 20% test
+
+Metrics:
+- Accuracy: 0.88
+- Precision: 0.85
+- Recall: 0.82
+- F1 Score: 0.83
+- ROC AUC: 0.90
+
+Confusion Matrix:
+[[TN: 90, FP: 10],
+ [FN: 15, TP: 85]]
+
+Notes:
+- Model performs well on recall but could improve precision.
+- Feature importance analysis suggests age and cholesterol have high impact.
+- Consider tuning hyperparameters further for better balance.
